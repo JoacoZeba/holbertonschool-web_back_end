@@ -5,6 +5,7 @@ Intended for basic string operations or as
 a utility function in larger programs.
 """
 
+
 def concat(a: str, b: str) -> str:
     """Return the concatenation of a and b.
 
