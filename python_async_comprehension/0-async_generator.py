@@ -9,12 +9,12 @@ It can be used to simulate a stream of random data in an asynchronous context.
 It can be useful for testing asynchronous code that processes streams of data.
 It is designed to be used with `async for` to consume the generated values.
 """
-from typing import AsyncGenerator
+
 import random
 import asyncio
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator():
     """
     Asynchronous generator that yields random floats between 0 and 10.
 
